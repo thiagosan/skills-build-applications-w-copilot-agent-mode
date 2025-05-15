@@ -1,0 +1,132 @@
+body {
+  background-color: #000080; /* Navy blue background */
+  color: #FFD700; /* Gold text color */
+  font-family: 'Courier New', Courier, monospace; /* Classic 90s font */
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+  margin: 10px auto;
+  display: block;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  text-align: center;
+  padding: 20px;
+  background-color: #2E8B57; /* Sea green background for header */
+  color: #FFFFFF; /* White text for better readability */
+  border-bottom: 3px solid #FFD700; /* Gold border */
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.navbar {
+  background-color: #2E8B57; /* Sea green navigation bar */
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 3px solid #FFD700; /* Gold border */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  /* color: white; */
+}
+
+.navbar-brand:hover {
+  color: #f0f8ff; /* Light blue */
+}
+
+.nav-link {
+  /* color: white; */
+}
+
+.nav-link:hover {
+  color: #f0f8ff; /* Light blue */
+}
+
+.navbar a {
+  color: #FFFFFF; /* White links for better readability */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.navbar a:hover {
+  color: #FFD700; /* Gold on hover */
+}
+
+h1, h2, h3 {
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000; /* Shadow for retro effect */
+  color: #FFD700; /* Gold headings */
+}
+
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #4B0082; /* Indigo container */
+  border: 2px solid #FFD700; /* Gold border */
+  border-radius: 10px;
+  box-shadow: 0 0 10px #FFD700; /* Glowing effect */
+}
+
+button {
+  background-color: #FFD700; /* Gold buttons */
+  color: #000080; /* Navy text */
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+  background-color: #FFFFFF; /* White background */
+  color: #000080; /* Navy text */
+}
+
+a {
+  color: #FFD700; /* Gold links */
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #FFFFFF; /* White on hover */
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #4B0082; /* Indigo footer */
+  color: #FFD700; /* Gold text */
+  border-top: 3px solid #FFD700; /* Gold border */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
